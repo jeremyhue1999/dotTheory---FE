@@ -10,34 +10,87 @@ div {
 }
 .header {
   padding: 10px 10px 10px 10px;
-  background-color: #635d53;
+  background-color: black;
 }
 .header img {
-  width: 200px;
-  height: 250px;
-  margin: 0 auto 0 auto;
+  width: 80px;
+  height: 100px;
+  margin-top: 5px;
+  margin-left: 10px;
+  position: absolute;
 }
 body {
   padding: 20px 20px 20px 20px;
   background-color: #ffffff;
+  background: #ffffff url(images/background.jpeg) top left repeat;
 }
 
-.main-content {
+.main-content1,
+.main-content2 {
   border: 10;
   padding: 30px 30px 30px 30px;
   margin: auto;
 }
+.main-content1 p,
+.main-content2 p {
+  font-size: 29px;
+
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   padding: 0 0 0 0;
 }
-.nav li {
+nav li {
   display: inline;
 }
 a {
   text-decoration: none;
-  color: rgb(3, 90, 43);
+  color: rgb(255, 255, 255);
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: double;
   color: rgb(56, 146, 201);
+}
+ul li {
+  font-size: 25px;
+  margin: 0px 0px 0px 100px;
+  font-family: "Courier New", Courier, monospace;
+}
+nav {
+  overflow: auto;
+  margin: 0px;
+  background: black;
+  padding-left: 700px;
+}
+.main-content1 {
+  padding-top: 100px;
+}
+.main-content1,
+.main-content2 {
+  width: 900px;
+  padding: 20px 20px 5px 20px;
+  border: 1px solid #dddddd;
+  margin: 30px auto 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+.main-content1 img {
+  float: left;
+  padding-right: 30px;
+  width: 500px;
+  height: 600px;
+}
+
+h2,
+h3 {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.main-content2 img {
+  float: right;
+  padding-left: 30px;
+  width: 500px;
+  height: 650px;
 }
