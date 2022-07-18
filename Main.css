@@ -83,6 +83,9 @@ h3 {
   font-size: 40px;
   color: #ffffff;
   text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  letter-spacing: 10px;
 }
 
 .main-content2 {
@@ -106,6 +109,13 @@ h3 {
   font-size: 29px;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+.gal2 {
+  margin: 30px auto 0 auto;
+  width: 1600px;
+  background: rgba(0, 0, 0, 0.3);
 }
 .gal img {
   height: 500px;
@@ -124,4 +134,93 @@ h3 {
   padding: 10px;
   border: 2px solid #53d7d1;
   height: 80px;
+  background-color: rgb(62, 161, 128);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+label,
+input {
+  display: block;
+}
+.label {
+  margin-bottom: 10px;
+}
+input,
+select {
+  padding: 7px;
+  margin-bottom: 25px;
+}
+input[type="text"],
+input[type="number"] {
+  border: 2px solid #7facaa;
+  font-size: 24px;
+  width: 500px;
+  border: 2px solid #7facaa;
+}
+
+.main-content1 .l1 {
+  background: url(images/trivia/gorilla.jpeg) center repeat;
+}
+.main-content1 .l2 {
+  background: url(images/trivia/deer.jpeg) center;
+}
+.main-content1 .l3 {
+  background: url(images/trivia/ostrich.jpeg) center;
+}
+.main-content1 .l4 {
+  background: url(images/trivia/lion.jpeg) center;
+}
+.main-content1 .l5 {
+  background: url(images/trivia/flion.jpeg) center repeat;
+}
+.main-content1 .l6 {
+  background: url(images/trivia/dog.jpeg) center repeat;
+}
+.main-content1 .l7 {
+  background: url(images/trivia/dolphin.jpeg) center repeat;
+}
+.main-content1 .l8 {
+  background: url(images/trivia/pig.jpeg) center no-repeat;
+}
+.main-content1 .l9 {
+  background: url(images/trivia/dog1.jpeg) center no-repeat;
+}
+.main-content1 .l10 {
+  background: url(images/trivia/deer1.jpeg) center repeat;
+}
+
+.footer {
+  height: auto;
+  width: 1650px;
+  overflow: auto;
+  margin: 0px;
+  background: black;
+  background: black;
+  text-align: center;
+}
+.footer p {
+  color: #ffffff;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer ul li {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer img {
+  height: 20px;
+}
+.main-content3 {
+  width: 600px;
+  height: 750px;
+  padding: 20px 20px 5px 20px;
+  border: 1px solid #dddddd;
+  margin: 30px auto 0 auto;
+  background: rgba(2, 93, 116, 0.5);
 }
