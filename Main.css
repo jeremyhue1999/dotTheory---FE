@@ -11,6 +11,8 @@ div {
 .header {
   padding: 10px 10px 10px 10px;
   background-color: black;
+  position: sticky;
+  top: 0px;
 }
 .header img {
   width: 80px;
@@ -31,13 +33,6 @@ body {
   padding: 30px 30px 30px 30px;
   margin: auto;
 }
-.main-content1 p,
-.main-content2 p {
-  font-size: 29px;
-
-  color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 body {
   padding: 0 0 0 0;
@@ -46,6 +41,7 @@ nav li {
   display: inline;
 }
 a {
+  display: inline-block;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
@@ -67,30 +63,65 @@ nav {
 .main-content1 {
   padding-top: 100px;
 }
-.main-content1,
-.main-content2 {
+.main-content1 {
   width: 900px;
   padding: 20px 20px 5px 20px;
   border: 1px solid #dddddd;
   margin: 30px auto 0 auto;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(6, 105, 80, 0.5);
 }
 .main-content1 img {
   float: left;
-  padding-right: 30px;
+  padding-right: 50px;
+  padding-bottom: 30px;
   width: 500px;
-  height: 600px;
+  height: 700px;
 }
 
 h2,
 h3 {
   font-size: 40px;
   color: #ffffff;
+  text-align: center;
 }
 
+.main-content2 {
+  width: 1000px;
+  height: 750px;
+  padding: 20px 20px 5px 20px;
+  border: 1px solid #dddddd;
+  margin: 30px auto 0 auto;
+  background: rgba(2, 93, 116, 0.5);
+}
 .main-content2 img {
   float: right;
-  padding-left: 30px;
+  padding-left: 50px;
+  padding-bottom: 20px;
   width: 500px;
-  height: 650px;
+  height: 750px;
+}
+.main-content2 p,
+.main-content1 p {
+  padding: 0 40px 0 40px;
+  font-size: 29px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gal img {
+  height: 500px;
+  padding: 70px;
+}
+.gal h2 {
+  font-size: 70px;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  letter-spacing: 10px;
+}
+.main-content1 li {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #53d7d1;
+  height: 80px;
 }
