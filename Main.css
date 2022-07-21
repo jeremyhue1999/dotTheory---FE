@@ -193,27 +193,26 @@ input[type="number"] {
   background: url(images/trivia/deer1.jpeg) center repeat;
 }
 
-.footer {
+footer {
   height: auto;
-  width: 1650px;
+
   overflow: auto;
   margin: 0px;
   background: black;
-  background: black;
   text-align: center;
 }
-.footer p {
+footer p {
   color: #ffffff;
   padding-bottom: 10px;
   text-transform: uppercase;
 }
 
-.footer ul li {
+footer ul li {
   display: inline;
   margin-left: auto;
   margin-right: auto;
 }
-.footer img {
+footer img {
   height: 20px;
 }
 .main-content3 {
@@ -223,4 +222,49 @@ input[type="number"] {
   border: 1px solid #dddddd;
   margin: 30px auto 0 auto;
   background: rgba(2, 93, 116, 0.5);
+}
+
+.comment-section {
+  background: rgb(3, 104, 94);
+}
+
+.comment-section form input[type="text"],
+.comment-section form input[type="email"],
+.comment-section form textarea {
+  border: 1px solid #ffffff;
+  font-size: 15px;
+  width: 500px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.comment-section ::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.comment-section form textarea {
+  height: 300px;
+  width: 510px;
+}
+
+.comment-section form {
+  padding-left: 570px;
+  padding-bottom: 10px;
+}
+.comment-section form input[type="submit"] {
+  border: #ffffff;
+}
+h4 {
+  color: #ffffff;
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.comment-section form input[type="text"],
+.comment-section form input[type="email"] {
+  width: 240px;
+}
+.grid-container {
+  display: flex;
+}
+.comment-section form input[type="email"] {
+  padding-left: 10px;
 }
