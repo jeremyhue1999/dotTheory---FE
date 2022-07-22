@@ -51,7 +51,7 @@ a:hover {
 }
 ul li {
   font-size: 25px;
-  margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 50px;
   font-family: "Courier New", Courier, monospace;
 }
 nav {
@@ -267,4 +267,17 @@ h4 {
 }
 .comment-section form input[type="email"] {
   padding-left: 10px;
+}
+.contet1 img {
+  float: left;
+  margin: 20px;
+  width: 500px;
+  height: 700px;
+}
+.about {
+  list-style-type: none;
+  padding: 0;
+  margin: 50px;
+  color: #ffffff;
+  background: rgba(2, 93, 116, 0.5);
 }
