@@ -13,6 +13,7 @@ div {
   background-color: black;
   position: sticky;
   top: 0px;
+  border-bottom: 3px solid rgb(111, 209, 111);
 }
 .header img {
   width: 80px;
@@ -43,23 +44,49 @@ nav li {
 a {
   display: inline-block;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(86, 85, 85);
 }
 a:hover {
   text-decoration: double;
-  color: rgb(56, 146, 201);
+  color: rgb(255, 255, 255);
 }
 ul li {
   font-size: 25px;
-  margin: 0px 0px 0px 50px;
+  margin: 0px 0px 0px 30px;
   font-family: "Courier New", Courier, monospace;
 }
+
 nav {
   overflow: auto;
   margin: 0px;
   background: black;
   padding-left: 700px;
 }
+nav ul ul {
+  position: absolute;
+  text-decoration: none;
+  visibility: hidden;
+}
+nav ul .categ:hover ul {
+  visibility: visible;
+  display: block;
+}
+nav ul .categ ul a:hover {
+  color: #39ea45;
+}
+
+nav ul ul li {
+  background-color: rgb(34, 34, 34);
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #ffffff;
+  border-top: none;
+  position: relative;
+}
+nav ul ul a {
+  color: #ffffff;
+}
+
 .main-content1 {
   padding-top: 100px;
 }
@@ -195,7 +222,6 @@ input[type="number"] {
 
 footer {
   height: auto;
-
   overflow: auto;
   margin: 0px;
   background: black;
