@@ -9,16 +9,17 @@ div {
   display: block;
 }
 .header {
-  padding: 10px 10px 10px 10px;
+  padding: 0;
   background-color: black;
   position: sticky;
   top: 0px;
-  border-bottom: 3px solid rgb(111, 209, 111);
+
+  height: auto;
 }
 .header img {
   width: 80px;
   height: 100px;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-left: 10px;
   position: absolute;
 }
@@ -44,11 +45,10 @@ nav li {
 a {
   display: inline-block;
   text-decoration: none;
-  color: rgb(86, 85, 85);
+  color: rgb(255, 255, 255);
 }
 a:hover {
-  text-decoration: double;
-  color: rgb(255, 255, 255);
+  text-decoration: underline;
 }
 ul li {
   font-size: 25px;
@@ -305,5 +305,94 @@ h4 {
   padding: 0;
   margin: 50px;
   color: #ffffff;
-  background: rgba(2, 93, 116, 0.5);
+  background: rgba(123, 189, 206, 0.5);
+}
+.category {
+  background: #dfdfdf;
+  padding-left: 50px;
+  margin: 0px;
+  padding-bottom: 0;
+  height: 30px;
+}
+.category ul li {
+  display: inline;
+  font-size: 20px;
+  padding: 20px;
+}
+.category a {
+  color: black;
+}
+.arrow {
+  position: absolute;
+  right: 15%;
+  top: 85px;
+}
+.volunteer-content {
+  border: 10;
+  width: 1400px;
+  padding: 20px 10px 5px 20px;
+  margin: 30px 10px 20px 90px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.volunteer-content img {
+  width: 1000px;
+}
+.volunteer-content h2,
+.volunteer-content h3 {
+  text-align: left;
+}
+
+section p,
+.gain ul li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: #fff9f9;
+}
+section {
+  width: 1000px;
+}
+.events ul li {
+  width: 300px;
+  display: inline-block;
+  background: #46725c;
+  margin-bottom: 10px;
+}
+.events {
+  width: 1100px;
+  padding: 20px 20px 5px 20px;
+
+  margin: 30px auto 20px 90px;
+}
+.events img {
+  width: 300px;
+  height: 150px;
+}
+.events h6 {
+  font-size: 30px;
+  margin: 5px;
+}
+.events figcaption {
+  font-size: 20px;
+  margin: 5px;
+}
+aside {
+  float: right;
+  width: 200px;
+  height: 1500px;
+}
+
+.volunteer-content ul li {
+  display: inline-block;
+}
+aside p {
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+  font-family: "Times New Roman", Times, serif;
+}
+aside a {
+  color: #000000;
+}
+.gain ul li {
+  display: list-item;
 }
