@@ -1,0 +1,535 @@
+html,
+body {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+}
+div {
+  display: block;
+}
+.header {
+  padding: 0;
+  background-color: black;
+  position: sticky;
+  top: 0px;
+
+  height: auto;
+}
+.header img {
+  width: 80px;
+  height: 100px;
+  margin-top: 0px;
+  margin-left: 10px;
+  position: absolute;
+}
+body {
+  padding: 20px 20px 20px 20px;
+  background-color: #ffffff;
+  background: #ffffff url(images/background.jpeg) top left repeat;
+}
+
+.main-content1,
+.main-content2 {
+  border: 10;
+  padding: 30px 30px 30px 30px;
+  margin: auto;
+}
+
+body {
+  padding: 0 0 0 0;
+}
+nav li {
+  display: inline;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  text-decoration: underline;
+}
+ul li {
+  font-size: 25px;
+  margin: 0px 0px 0px 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav {
+  overflow: auto;
+  margin: 0px;
+  background: black;
+  padding-left: 700px;
+}
+nav ul ul {
+  position: absolute;
+  text-decoration: none;
+  visibility: hidden;
+}
+nav ul .categ:hover ul {
+  visibility: visible;
+  display: block;
+}
+nav ul .categ ul a:hover {
+  color: #39ea45;
+}
+
+nav ul ul li {
+  background-color: rgb(34, 34, 34);
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #ffffff;
+  border-top: none;
+  position: relative;
+}
+nav ul ul a {
+  color: #ffffff;
+}
+
+.main-content1 {
+  padding-top: 100px;
+}
+.main-content1 {
+  width: 900px;
+  padding: 20px 20px 5px 20px;
+  border: 1px solid #dddddd;
+  margin: 30px auto 0 auto;
+  background: rgba(6, 105, 80, 0.5);
+}
+.main-content1 img {
+  float: left;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  width: 500px;
+  height: 700px;
+}
+
+h2,
+h3 {
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  letter-spacing: 10px;
+}
+
+.main-content2 {
+  width: 1000px;
+  height: 750px;
+  padding: 20px 20px 5px 20px;
+  border: 1px solid #dddddd;
+  margin: 30px auto 0 auto;
+  background: rgba(2, 93, 116, 0.5);
+}
+.main-content2 img {
+  float: right;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  width: 500px;
+  height: 750px;
+}
+.main-content2 p,
+.main-content1 p {
+  padding: 0 40px 0 40px;
+  font-size: 29px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+.gal2 {
+  margin: 30px auto 0 auto;
+  width: 1600px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.gal img {
+  height: 500px;
+  padding: 70px;
+}
+.gal h2 {
+  font-size: 70px;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  letter-spacing: 10px;
+}
+.main-content1 li {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #53d7d1;
+  height: 80px;
+  background-color: rgb(62, 161, 128);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+label,
+input {
+  display: block;
+}
+.label {
+  margin-bottom: 10px;
+}
+input,
+select {
+  padding: 7px;
+  margin-bottom: 25px;
+}
+input[type="text"],
+input[type="number"] {
+  border: 2px solid #7facaa;
+  font-size: 24px;
+  width: 500px;
+  border: 2px solid #7facaa;
+}
+
+.main-content1 .l1 {
+  background: url(images/trivia/gorilla.jpeg) center repeat;
+}
+.main-content1 .l2 {
+  background: url(images/trivia/deer.jpeg) center;
+}
+.main-content1 .l3 {
+  background: url(images/trivia/ostrich.jpeg) center;
+}
+.main-content1 .l4 {
+  background: url(images/trivia/lion.jpeg) center;
+}
+.main-content1 .l5 {
+  background: url(images/trivia/flion.jpeg) center repeat;
+}
+.main-content1 .l6 {
+  background: url(images/trivia/dog.jpeg) center repeat;
+}
+.main-content1 .l7 {
+  background: url(images/trivia/dolphin.jpeg) center repeat;
+}
+.main-content1 .l8 {
+  background: url(images/trivia/pig.jpeg) center no-repeat;
+}
+.main-content1 .l9 {
+  background: url(images/trivia/dog1.jpeg) center no-repeat;
+}
+.main-content1 .l10 {
+  background: url(images/trivia/deer1.jpeg) center repeat;
+}
+
+footer {
+  height: auto;
+  overflow: auto;
+  margin: 0px;
+  background: black;
+  text-align: center;
+}
+footer p {
+  color: #ffffff;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+footer ul li {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer img {
+  height: 20px;
+}
+.main-content3 {
+  width: 600px;
+  height: 750px;
+  padding: 20px 20px 5px 20px;
+  border: 1px solid #dddddd;
+  margin: 30px auto 0 auto;
+  background: rgba(2, 93, 116, 0.5);
+}
+
+.comment-section {
+  background: rgb(3, 104, 94);
+  margin-top: 20px;
+}
+
+.comment-section form input[type="text"],
+.comment-section form input[type="email"],
+.comment-section form textarea {
+  border: 1px solid #ffffff;
+  font-size: 15px;
+  width: 500px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.comment-section ::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.comment-section form textarea {
+  height: 300px;
+  width: 510px;
+}
+
+.comment-section form {
+  padding-bottom: 10px;
+}
+.comment-section form input[type="submit"] {
+  border: #ffffff;
+}
+h4 {
+  color: #ffffff;
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.comment-section form input[type="text"],
+.comment-section form input[type="email"] {
+  width: 240px;
+}
+.grid-container {
+  display: flex;
+}
+.comment-container {
+  width: 500px;
+  margin: 0 auto 0 auto;
+  padding: 20px 50px 20px 50px;
+}
+.comment-section form input[type="email"] {
+  padding-left: 10px;
+}
+.contet1 img {
+  float: left;
+  margin: 20px;
+  width: 500px;
+  height: 700px;
+}
+.about {
+  list-style-type: none;
+  padding: 0;
+  margin: 50px;
+  color: #ffffff;
+  background: rgba(123, 189, 206, 0.5);
+}
+.category {
+  background: #dfdfdf;
+  padding-left: 50px;
+  margin: 0px;
+  padding-bottom: 0;
+  height: 30px;
+}
+.category ul li {
+  display: inline;
+  font-size: 20px;
+  padding: 20px;
+}
+.category a {
+  color: black;
+}
+.arrow {
+  position: absolute;
+  right: 15%;
+  top: 85px;
+}
+.volunteer-content {
+  border: 10;
+  width: 1400px;
+  padding: 20px 10px 5px 20px;
+  margin: 30px 10px 20px 90px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.volunteer-content img {
+  width: 1000px;
+}
+.volunteer-content h2,
+.volunteer-content h3 {
+  text-align: left;
+}
+
+section p,
+.gain ul li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: #fff9f9;
+}
+section {
+  width: 1000px;
+}
+.events ul li {
+  width: 300px;
+  display: inline-block;
+  background: #46725c;
+  margin-bottom: 10px;
+}
+.events {
+  width: 1100px;
+  padding: 20px 20px 5px 20px;
+
+  margin: 30px auto 20px 90px;
+}
+.events img {
+  width: 300px;
+  height: 150px;
+}
+.events h6 {
+  font-size: 30px;
+  margin: 5px;
+}
+.events figcaption {
+  font-size: 20px;
+  margin: 5px;
+}
+aside {
+  float: right;
+  width: 200px;
+  height: 1500px;
+}
+
+.volunteer-content ul li {
+  display: inline-block;
+}
+aside p {
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+  font-family: "Times New Roman", Times, serif;
+}
+aside a {
+  color: #000000;
+}
+.gain ul li {
+  display: list-item;
+}
+
+.adopt-main {
+  background: url(https://static.onecms.io/wp-content/uploads/sites/20/2019/01/puppies.jpg)
+    repeat;
+  height: 1000px;
+  margin: 0%;
+}
+
+.adopt-main h6 {
+  font-size: 30px;
+  margin: 0;
+  color: black;
+}
+.adopt {
+  width: 500px;
+  float: right;
+  background: rgba(199, 201, 199, 0.8);
+  margin-top: 200px;
+  padding: 50px;
+}
+.adopt p {
+  color: black;
+  font-size: 20px;
+}
+
+.steps img {
+  height: 180px;
+  width: 350px;
+}
+.steps h6 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.steps a {
+  padding-top: 10px;
+  color: rgb(3, 109, 141);
+}
+.steps ol li {
+  display: inline-table;
+  width: 350px;
+  height: 400px;
+  background: rgb(255, 255, 255);
+  margin: 20px 30px 0 0;
+}
+
+.steps a,
+.steps p,
+.steps h6 {
+  padding: 0 20px 0 20px;
+}
+
+.steps .sub {
+  background: #46725c;
+  color: white;
+  margin: 20px 0 0 20px;
+  border: 1px solid black;
+}
+.adopt-sec {
+  border-bottom: 1px solid black;
+  width: 500px;
+  margin-left: 50px;
+  margin: 100px 0 30px 50px;
+}
+
+.adopt-sec p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 23px;
+  -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-color: #ffffff;
+}
+
+.icons img {
+  height: 100px;
+}
+.icons ul li {
+  display: inline-table;
+  padding: 0 90px 0 90px;
+  margin: 0 auto 0 auto;
+  border-right: 3px solid rgb(0, 0, 0);
+}
+
+.icons {
+  margin: 90px 0 0 0;
+}
+
+.awareness-main {
+  width: 1000px;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid hsl(0, 0%, 87%);
+  margin: 30px auto 30px auto;
+  background: #fdfdfd;
+  background: url(https://images.unsplash.com/photo-1550147760-44c9966d6bc7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80);
+}
+.awareness-main section {
+  width: 1000px;
+  border: 3 px solid rgb(0, 0, 0);
+  margin-top: 20px;
+  background: #ffffff;
+  padding-bottom: 20px;
+}
+.awareness-main p,
+.awareness-main h2 {
+  padding: 10px 50px 0 50px;
+}
+
+.awareness-main p,
+.awareness-main ul li {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.awareness-main h2 {
+  color: #000000;
+}
+
+.components {
+  width: 700px;
+  margin: 20px auto 20px auto;
+  background: rgba(255, 255, 255, 0.5);
+}
+.components ol li,
+.components ul li,
+.components h2 {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+}
+.components ol {
+  margin: 10px 50px 10px 100px;
+}
