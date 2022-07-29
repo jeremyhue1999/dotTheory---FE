@@ -252,6 +252,7 @@ footer img {
 
 .comment-section {
   background: rgb(3, 104, 94);
+  margin-top: 20px;
 }
 
 .comment-section form input[type="text"],
@@ -272,7 +273,6 @@ footer img {
 }
 
 .comment-section form {
-  padding-left: 570px;
   padding-bottom: 10px;
 }
 .comment-section form input[type="submit"] {
@@ -290,6 +290,11 @@ h4 {
 }
 .grid-container {
   display: flex;
+}
+.comment-container {
+  width: 500px;
+  margin: 0 auto 0 auto;
+  padding: 20px 50px 20px 50px;
 }
 .comment-section form input[type="email"] {
   padding-left: 10px;
@@ -420,10 +425,6 @@ aside a {
   color: black;
   font-size: 20px;
 }
-.adopt-sec {
-  width: 700px;
-  margin-left: 50px;
-}
 
 .steps img {
   height: 180px;
@@ -457,4 +458,78 @@ aside a {
   color: white;
   margin: 20px 0 0 20px;
   border: 1px solid black;
+}
+.adopt-sec {
+  border-bottom: 1px solid black;
+  width: 500px;
+  margin-left: 50px;
+  margin: 100px 0 30px 50px;
+}
+
+.adopt-sec p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 23px;
+  -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-color: #ffffff;
+}
+
+.icons img {
+  height: 100px;
+}
+.icons ul li {
+  display: inline-table;
+  padding: 0 90px 0 90px;
+  margin: 0 auto 0 auto;
+  border-right: 3px solid rgb(0, 0, 0);
+}
+
+.icons {
+  margin: 90px 0 0 0;
+}
+
+.awareness-main {
+  width: 1000px;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid hsl(0, 0%, 87%);
+  margin: 30px auto 30px auto;
+  background: #fdfdfd;
+  background: url(https://images.unsplash.com/photo-1550147760-44c9966d6bc7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80);
+}
+.awareness-main section {
+  width: 1000px;
+  border: 3 px solid rgb(0, 0, 0);
+  margin-top: 20px;
+  background: #ffffff;
+  padding-bottom: 20px;
+}
+.awareness-main p,
+.awareness-main h2 {
+  padding: 10px 50px 0 50px;
+}
+
+.awareness-main p,
+.awareness-main ul li {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.awareness-main h2 {
+  color: #000000;
+}
+
+.components {
+  width: 700px;
+  margin: 20px auto 20px auto;
+  background: rgba(255, 255, 255, 0.5);
+}
+.components ol li,
+.components ul li,
+.components h2 {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+}
+.components ol {
+  margin: 10px 50px 10px 100px;
 }
