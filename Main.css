@@ -51,7 +51,7 @@ a:hover {
   text-decoration: underline;
 }
 ul li {
-  font-size: 25px;
+  font-size: 1.5625em;
   margin: 0px 0px 0px 30px;
   font-family: "Courier New", Courier, monospace;
 }
@@ -133,7 +133,7 @@ h3 {
 .main-content2 p,
 .main-content1 p {
   padding: 0 40px 0 40px;
-  font-size: 29px;
+  font-size: 1.8125em;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-text-stroke-width: 1px;
@@ -149,7 +149,7 @@ h3 {
   padding: 70px;
 }
 .gal h2 {
-  font-size: 70px;
+  font-size: 4.2em;
   color: black;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ffffff;
@@ -184,7 +184,7 @@ select {
 input[type="text"],
 input[type="number"] {
   border: 2px solid #7facaa;
-  font-size: 24px;
+  font-size: 1.5em;
   width: 500px;
   border: 2px solid #7facaa;
 }
@@ -259,7 +259,7 @@ footer img {
 .comment-section form input[type="email"],
 .comment-section form textarea {
   border: 1px solid #ffffff;
-  font-size: 15px;
+  font-size: 0.9375em;
   width: 500px;
   background: rgba(0, 0, 0, 0.1);
 }
@@ -281,7 +281,7 @@ footer img {
 h4 {
   color: #ffffff;
   padding-top: 10px;
-  font-size: 30px;
+  font-size: 1.875em;
   text-align: center;
 }
 .comment-section form input[type="text"],
@@ -321,7 +321,7 @@ h4 {
 }
 .category ul li {
   display: inline;
-  font-size: 20px;
+  font-size: 1.25em;
   padding: 20px;
 }
 .category a {
@@ -350,7 +350,7 @@ h4 {
 section p,
 .gain ul li {
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 0.8em;
   -webkit-text-stroke-width: 0.3px;
   -webkit-text-stroke-color: #fff9f9;
 }
@@ -374,11 +374,11 @@ section {
   height: 150px;
 }
 .events h6 {
-  font-size: 30px;
+  font-size: 1em;
   margin: 5px;
 }
 .events figcaption {
-  font-size: 20px;
+  font-size: 0.83333333333em;
   margin: 5px;
 }
 aside {
@@ -410,7 +410,7 @@ aside a {
 }
 
 .adopt-main h6 {
-  font-size: 30px;
+  font-size: 1.875em;
   margin: 0;
   color: black;
 }
@@ -423,7 +423,7 @@ aside a {
 }
 .adopt p {
   color: black;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 .steps img {
@@ -431,7 +431,7 @@ aside a {
   width: 350px;
 }
 .steps h6 {
-  font-size: 20px;
+  font-size: 1.25em;
   margin: 0;
 }
 
@@ -469,7 +469,7 @@ aside a {
 .adopt-sec p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 23px;
+  font-size: 1.4375em;
   -webkit-text-stroke-width: 0.4px;
   -webkit-text-stroke-color: #ffffff;
 }
@@ -510,7 +510,7 @@ aside a {
 
 .awareness-main p,
 .awareness-main ul li {
-  font-size: 30px;
+  font-size: 1.875em;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -526,7 +526,7 @@ aside a {
 .components ol li,
 .components ul li,
 .components h2 {
-  font-size: 30px;
+  font-size: 1.875;
   color: rgb(0, 0, 0);
   font-family: "Courier New", Courier, monospace;
 }
