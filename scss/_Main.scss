@@ -27,7 +27,7 @@ body {
 }
 body {
   background-color: #ffffff;
-  background: #ffffff url(images/background.jpeg) top left repeat;
+  background: #ffffff url(/images/background.jpeg) top left repeat;
 }
 nav li {
   display: inline;
@@ -36,10 +36,11 @@ a {
   display: inline-block;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  &:hover {
+    text-decoration: underline;
+  }
 }
-a:hover {
-  text-decoration: underline;
-}
+
 ul li {
   font-size: 1.5625em;
   margin: 0 0 0 3%;
@@ -155,34 +156,34 @@ input[type="number"] {
 }
 
 .main-content-trivia li:first-child {
-  background: url(images/trivia/gorilla.jpeg) center repeat;
+  background: url(/images/trivia/gorilla.jpeg) center repeat;
 }
 .main-content-trivia li:nth-child(2) {
-  background: url(images/trivia/deer.jpeg) center;
+  background: url(/images/trivia/deer.jpeg) center;
 }
 .main-content-trivia li:nth-child(3) {
-  background: url(images/trivia/ostrich.jpeg) center;
+  background: url(/images/trivia/ostrich.jpeg) center;
 }
 .main-content-trivia li:nth-child(4) {
-  background: url(images/trivia/lion.jpeg) center;
+  background: url(/images/trivia/lion.jpeg) center;
 }
 .main-content-trivia li:nth-child(5) {
-  background: url(images/trivia/flion.jpeg) center repeat;
+  background: url(/images/trivia/flion.jpeg) center repeat;
 }
 .main-content-trivia li:nth-child(6) {
-  background: url(images/trivia/dog.jpeg) center repeat;
+  background: url(/images/trivia/dog.jpeg) center repeat;
 }
 .main-content-trivia li:nth-child(7) {
-  background: url(images/trivia/dolphin.jpeg) center repeat;
+  background: url(/images/trivia/dolphin.jpeg) center repeat;
 }
 .main-content-trivia li:nth-child(8) {
-  background: url(images/trivia/pig.jpeg) center no-repeat;
+  background: url(/images/trivia/pig.jpeg) center no-repeat;
 }
 .main-content-trivia li:nth-child(9) {
-  background: url(images/trivia/dog1.jpeg) center no-repeat;
+  background: url(/images/trivia/dog1.jpeg) center no-repeat;
 }
 .main-content-trivia li:nth-child(10) {
-  background: url(images/trivia/deer1.jpeg) center repeat;
+  background: url(/images/trivia/deer1.jpeg) center repeat;
 }
 
 .main-content-trivia {
