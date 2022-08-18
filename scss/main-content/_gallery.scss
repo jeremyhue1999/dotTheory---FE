@@ -1,0 +1,22 @@
+.gal2 {
+  margin: 1.875% auto 1.875% auto;
+  width: 98%;
+  background: rgba($color-black, 0.3);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30em);
+  overflow: scroll;
+}
+
+.gal {
+  img {
+    margin: 2em auto 2em auto;
+    @include img-size("", 30em);
+  }
+  h2 {
+    font-size: 4.2em;
+    color: $color-black;
+    -webkit-text-stroke-width: 0.02em;
+    -webkit-text-stroke-color: $color-white;
+    letter-spacing: 0.1em;
+  }
+}

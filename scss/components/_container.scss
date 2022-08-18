@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+}
+
+.comment-section form input[type="text"],
+.comment-section form input[type="email"] {
+  width: 100%;
+}
+.grid-container {
+  display: flex;
+}
+.comment-container {
+  width: 30%;
+  margin: 0 auto 0 auto;
+}

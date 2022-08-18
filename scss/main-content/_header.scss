@@ -1,0 +1,31 @@
+.header {
+  & {
+    padding: 0;
+    background-color: $color-black;
+    position: sticky;
+    top: 0px;
+    height: auto;
+  }
+  & img {
+    width: 100px;
+    @include img-size(100px, "");
+    margin-left: 1%;
+    position: absolute;
+  }
+}
+
+nav {
+  li {
+    display: inline;
+  }
+
+  & {
+    overflow: auto;
+    margin: 0px;
+    background: $color-black;
+    padding-left: 40%;
+  }
+}
+.toggleNav {
+  display: none;
+}

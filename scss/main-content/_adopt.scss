@@ -1,0 +1,94 @@
+.adopt {
+  &-main {
+    background: url(https://static.onecms.io/wp-content/uploads/sites/20/2019/01/puppies.jpg)
+      repeat;
+    height: 50em;
+    margin: 0;
+  }
+
+  &-main h6 {
+    font-size: 1.875em;
+    margin: 0;
+    color: $color-black;
+  }
+  & {
+    width: 35%;
+    float: right;
+    background: rgba(199, 201, 199, 0.8);
+    margin-top: 10%;
+    padding: 3%;
+  }
+  p {
+    color: $color-black;
+    font-size: 1.25em;
+  }
+  &-sec p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 1.4375em;
+    -webkit-text-stroke-width: 0.03em;
+    -webkit-text-stroke-color: $color-white;
+  }
+  &-sec {
+    border-bottom: 1px solid $color-black;
+    width: 30%;
+    margin: 5% 0 3% 5%;
+  }
+}
+.steps {
+  img {
+    @include img-size(100%, 13em);
+  }
+  h6 {
+    font-size: 1.25em;
+    margin: 0;
+  }
+
+  a {
+    padding-top: 1%;
+    color: rgb(3, 109, 141);
+  }
+  ol li {
+    width: 80%;
+    background: $color-white;
+    margin: 2% 3% 0 0;
+    list-style: none;
+    overflow: auto;
+  }
+  ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  a,
+  p,
+  h6 {
+    padding: 0 5.7% 0 5.7%;
+  }
+
+  & .sub {
+    background: #46725c;
+    color: $color-black;
+    margin: 5% 0 0 5%;
+    border: 0.03em solid black;
+  }
+}
+
+.icons {
+  img {
+    @include img-size("", 5em);
+  }
+  ul li {
+    padding: 0 30% 0 0;
+    margin: 0 auto 0 auto;
+    border-right: 0.2em solid rgb(0, 0, 0);
+  }
+  ul li:nth-child(5) {
+    border: none;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+  }
+}
