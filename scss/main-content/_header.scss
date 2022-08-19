@@ -7,16 +7,32 @@
     height: auto;
   }
   & img {
-    width: 100px;
-    @include img-size(100px, "");
-    margin-left: 1%;
-    position: absolute;
+    & {
+      width: 100px;
+      @include img-size(100px, "");
+      margin-left: 1%;
+      position: absolute;
+    }
+    @media #{$media-600} {
+      display: none;
+    }
   }
 }
 
 nav {
   li {
-    display: inline;
+    & {
+      display: inline;
+    }
+    @media #{$media-600} {
+      border-bottom: 1px solid $color-white;
+      font-size: 1.4em;
+    }
+    @media #{$media-480} {
+      padding: 0.4em;
+      margin: 0;
+      text-align: center;
+    }
   }
 
   & {
@@ -25,7 +41,38 @@ nav {
     background: $color-black;
     padding-left: 40%;
   }
+  @media #{$media-600} {
+    padding-left: 0;
+    margin: 0;
+  }
+  ul {
+    @media #{$media-600} {
+      padding: 0 1em 0 0;
+      display: flex;
+      align-items: flex-start;
+    }
+    @media #{$media-480} {
+      flex-direction: column;
+      align-content: center;
+      align-items: stretch;
+      margin: 0;
+      padding: 1em 0 1em 0;
+      display: none;
+    }
+    &.open {
+      @media #{$media-600} {
+        display: flex;
+      }
+    }
+  }
 }
 .toggleNav {
   display: none;
+  @media #{$media-480} {
+    display: block;
+    text-align: center;
+    border-bottom: 3px solid $color-white;
+    font-size: 30px;
+    text-decoration: none;
+  }
 }

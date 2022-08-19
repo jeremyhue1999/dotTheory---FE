@@ -22,17 +22,22 @@
     color: $color-black;
     font-size: 1.25em;
   }
-  &-sec p {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    font-size: 1.4375em;
-    -webkit-text-stroke-width: 0.03em;
-    -webkit-text-stroke-color: $color-white;
-  }
   &-sec {
-    border-bottom: 1px solid $color-black;
-    width: 30%;
-    margin: 5% 0 3% 5%;
+    & {
+      border-bottom: 1px solid $color-black;
+      width: 30%;
+      margin: 5% 0 3% 5%;
+    }
+    @media #{$media-600} {
+      width: $m-width;
+    }
+    p {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-size: 1.4375em;
+      -webkit-text-stroke-width: 0.03em;
+      -webkit-text-stroke-color: $color-white;
+    }
   }
 }
 .steps {
@@ -49,15 +54,25 @@
     color: rgb(3, 109, 141);
   }
   ol li {
-    width: 80%;
-    background: $color-white;
-    margin: 2% 3% 0 0;
-    list-style: none;
-    overflow: auto;
+    & {
+      width: 80%;
+      background: $color-white;
+      margin: 2% 3% 0 0;
+      list-style: none;
+      overflow: auto;
+    }
+    @media #{$media-600} {
+      width: 25em;
+    }
   }
   ol {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    & {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media #{$media-600} {
+      grid-template-columns: 1fr;
+    }
   }
 
   a,
@@ -76,19 +91,33 @@
 
 .icons {
   img {
-    @include img-size("", 5em);
+    & {
+      @include img-size("", 5em);
+    }
+    @media #{$media-600} {
+      width: 1.5em;
+      height: auto;
+    }
   }
-  ul li {
-    padding: 0 30% 0 0;
-    margin: 0 auto 0 auto;
-    border-right: 0.2em solid rgb(0, 0, 0);
-  }
-  ul li:nth-child(5) {
-    border: none;
-  }
+
   ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    list-style-type: none;
+    & {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      list-style-type: none;
+    }
+    li {
+      & {
+        padding: 0 30% 0 0;
+        margin: 0 auto 0 auto;
+        border-right: 0.2em solid rgb(0, 0, 0);
+      }
+      &:nth-child(5) {
+        border: none;
+      }
+    }
+    @media #{media-600} {
+      padding-left: 0;
+    }
   }
 }

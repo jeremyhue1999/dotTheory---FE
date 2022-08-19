@@ -1,13 +1,18 @@
 .awareness {
   &-main {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    padding: 2% 2% 2% 2%;
-    border: 0.03em solid hsl(0, 0%, 87%);
-    margin: 3% auto 3% auto;
-    background: $color-white;
-    background: url(https://images.unsplash.com/photo-1550147760-44c9966d6bc7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80);
+    & {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      padding: 2% 2% 2% 2%;
+      border: 0.03em solid hsl(0, 0%, 87%);
+      margin: 3% auto 3% auto;
+      background: $color-white;
+      background: url(https://images.unsplash.com/photo-1550147760-44c9966d6bc7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80);
+    }
+    @media #{$media-600} {
+      width: $m-width;
+    }
   }
   &-main section {
     width: 100%;
@@ -43,5 +48,8 @@
   }
   ol {
     margin: 1% 5% 1% 10%;
+  }
+  @media #{$media-600} {
+    width: $m-width;
   }
 }

@@ -29,3 +29,11 @@
   color: $color-black;
   font-family: "Courier New", Courier, monospace;
 }
+
+%header-font {
+  font-size: 2.5em;
+  color: $color-white;
+  text-align: center;
+  -webkit-text-stroke-width: 0.03em;
+  -webkit-text-stroke-color: $color-black;
+}

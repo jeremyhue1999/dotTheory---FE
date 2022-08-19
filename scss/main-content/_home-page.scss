@@ -9,10 +9,19 @@
       @extend %text-main;
     }
     img {
-      float: left;
-      padding-right: 5.55555%;
-      padding-bottom: 3.3333333%;
-      @include img-size(62%, 20%);
+      & {
+        float: left;
+        padding-right: 5.55555%;
+        padding-bottom: 3.3333333%;
+        @include img-size(62%, 20%);
+      }
+      @media #{$media-600} {
+        width: 100%;
+        height: auto;
+      }
+    }
+    @media #{$media-600} {
+      width: $m-width;
     }
   }
   &-content2 {
@@ -25,10 +34,51 @@
       @extend %text-main;
     }
     img {
-      float: right;
-      padding-left: 5%;
-      padding-bottom: 5%;
-      @include img-size(55%);
+      & {
+        float: right;
+        padding-left: 5%;
+        padding-bottom: 5%;
+        @include img-size(55%);
+      }
+      @media #{$media-600} {
+        width: 100%;
+        height: auto;
+      }
+    }
+    @media #{$media-600} {
+      width: $m-width;
+    }
+  }
+}
+
+.comment {
+  &-section {
+    background: rgb(3, 104, 94);
+    margin-top: 2%;
+  }
+  &-section form input[type="text"],
+  &-section form input[type="email"],
+  &-section form textarea {
+    @extend %donate-input;
+  }
+  &-section ::placeholder {
+    color: $color-white;
+  }
+
+  &-section form textarea {
+    height: 30em;
+    width: 100%;
+  }
+
+  &-section form {
+    padding-bottom: 10px;
+  }
+  &-section form input[type="submit"] {
+    border: $color-white;
+  }
+  &-container {
+    @media #{$media-600} {
+      width: $m-width;
     }
   }
 }
