@@ -1,0 +1,18 @@
+.main {
+  &-content3 {
+    & {
+      width: 35%;
+      padding: 3.333% 3.333% 3.333% 3.333%;
+      border: 1px solid $color-white;
+      margin: 5% auto 5% auto;
+      background: rgba(2, 93, 116, 0.5);
+    }
+    @media #{$media-600} {
+      width: $m-width;
+      margin-bottom: 60%;
+    }
+  }
+  &-content3 form {
+    display: inline;
+  }
+}

@@ -1,0 +1,84 @@
+.main {
+  &-content1 {
+    & {
+      padding: 2.2222222222% 2.2222222222% 0.555555% 2.2222222222%;
+      margin: 3% auto 0 auto;
+      @include content(55%, rgba(6, 105, 80, 0.5), hidden);
+    }
+    p {
+      @extend %text-main;
+    }
+    img {
+      & {
+        float: left;
+        padding-right: 5.55555%;
+        padding-bottom: 3.3333333%;
+        @include img-size(62%, 20%);
+      }
+      @media #{$media-600} {
+        width: 100%;
+        height: auto;
+      }
+    }
+    @media #{$media-600} {
+      width: $m-width;
+    }
+  }
+  &-content2 {
+    & {
+      padding: 2% 2% 0.5% 2%;
+      margin: 3% auto 0 auto;
+      @include content(60%, rgba(2, 93, 116, 0.5), hidden);
+    }
+    p {
+      @extend %text-main;
+    }
+    img {
+      & {
+        float: right;
+        padding-left: 5%;
+        padding-bottom: 5%;
+        @include img-size(55%);
+      }
+      @media #{$media-600} {
+        width: 100%;
+        height: auto;
+      }
+    }
+    @media #{$media-600} {
+      width: $m-width;
+    }
+  }
+}
+
+.comment {
+  &-section {
+    background: rgb(3, 104, 94);
+    margin-top: 2%;
+  }
+  &-section form input[type="text"],
+  &-section form input[type="email"],
+  &-section form textarea {
+    @extend %donate-input;
+  }
+  &-section ::placeholder {
+    color: $color-white;
+  }
+
+  &-section form textarea {
+    height: 30em;
+    width: 100%;
+  }
+
+  &-section form {
+    padding-bottom: 10px;
+  }
+  &-section form input[type="submit"] {
+    border: $color-white;
+  }
+  &-container {
+    @media #{$media-600} {
+      width: $m-width;
+    }
+  }
+}

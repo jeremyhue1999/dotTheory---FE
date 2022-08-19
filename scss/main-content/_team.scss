@@ -1,0 +1,13 @@
+.about {
+  & {
+    list-style-type: none;
+    margin: 5%;
+    color: $color-white;
+    background: rgba(123, 189, 206, 0.5);
+  }
+  img {
+    padding-top: 2%;
+
+    @include img-size(50%);
+  }
+}

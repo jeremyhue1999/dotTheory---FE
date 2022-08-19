@@ -1,0 +1,80 @@
+label,
+input {
+  display: block;
+}
+.label {
+  margin-bottom: 1%;
+}
+
+input,
+select {
+  padding: 2%;
+  margin-bottom: 2%;
+}
+input[type="text"],
+input[type="number"] {
+  font-size: 1.5em;
+  width: 95%;
+}
+
+.main {
+  &-content-trivia {
+    & {
+      width: 50%;
+      overflow: hidden;
+      padding: 2% 6% 0.5% 2%;
+      margin: 3% auto 3% auto;
+      background: rgba(2, 93, 116, 0.5);
+    }
+    @media #{$media-600} {
+      width: $m-width;
+    }
+  }
+  &-content-trivia li {
+    margin: 1%;
+    padding: 1%;
+    border: 0.05em solid #53d7d1;
+    height: 3em;
+    background-color: rgb(62, 161, 128);
+    color: $color-white;
+    overflow: scroll;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.05em;
+    -webkit-text-stroke-color: #000000;
+  }
+  &-content-trivia ul {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  &-content-trivia li:first-child {
+    background: url(#{$trivia-path}/trivia/gorilla.jpeg) center repeat;
+  }
+  &-content-trivia li:nth-child(2) {
+    background: url(#{$trivia-path}/trivia/deer.jpeg) center;
+  }
+  &-content-trivia li:nth-child(3) {
+    background: url(#{$trivia-path}/trivia/ostrich.jpeg) center;
+  }
+  &-content-trivia li:nth-child(4) {
+    background: url(#{$trivia-path}/trivia/lion.jpeg) center;
+  }
+  &-content-trivia li:nth-child(5) {
+    background: url(#{$trivia-path}/trivia/flion.jpeg) center repeat;
+  }
+  &-content-trivia li:nth-child(6) {
+    background: url(#{$trivia-path}/trivia/dog.jpeg) center repeat;
+  }
+  &-content-trivia li:nth-child(7) {
+    background: url(#{$trivia-path}/trivia/dolphin.jpeg) center repeat;
+  }
+  &-content-trivia li:nth-child(8) {
+    background: url(#{$trivia-path}/trivia/pig.jpeg) center no-repeat;
+  }
+  &-content-trivia li:nth-child(9) {
+    background: url(/#{$trivia-path}/trivia/dog1.jpeg) center no-repeat;
+  }
+  &-content-trivia li:nth-child(10) {
+    background: url(#{$trivia-path}/trivia/deer1.jpeg) center repeat;
+  }
+}

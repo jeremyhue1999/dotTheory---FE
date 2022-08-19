@@ -1,0 +1,42 @@
+html,
+body {
+  & {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    overflow: scroll;
+    height: 100%;
+    background: $color-white url(/images/background.jpeg) top left repeat;
+  }
+  @media #{$media-600} {
+    font-size: 100%;
+  }
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: $color-white;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ul li {
+  font-size: 1.5625em;
+  margin: 0 0 0 3%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2,
+h3 {
+  @extend %header-font;
+}
+
+h4 {
+  color: $color-white;
+  padding-top: 1%;
+  font-size: 1.875em;
+  text-align: center;
+}
